@@ -72,7 +72,7 @@ const server = app.listen(PORT, () => {
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: process.env.FRONTEND_URL,
+    origin: 'https://messageapp-harshit1.onrender.com/',
   },
 });
 
