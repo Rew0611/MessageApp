@@ -35,7 +35,7 @@ process.on('uncaughtException', (err) => {
 connectToDb();
 
 // using middlewares
-app.use(cors({ origin: '*', credentials: true }));
+app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(express.json({ limit: '20mb' }));
 app.use(cookieParser());
 
@@ -70,7 +70,7 @@ const server = app.listen(PORT, () => {
 const io = require('socket.io')(server, {
   pingTimeout: 60000,
   cors: {
-    origin: '*',
+    origin: process.env.FRONTEND_URL,
   },
 });
 
