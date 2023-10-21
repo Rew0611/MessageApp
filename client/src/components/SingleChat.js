@@ -133,7 +133,7 @@ function SingleChat() {
     socket = io(
       process.env.NODE_ENV !== 'production'
         ? 'http://localhost:5000'
-        : 'https://messageapp-harshit.onrender.com'
+        : 'https://messageapp-harshit1.onrender.com'
     );
     socket.emit('setup', currentUser);
     socket.on('connected', () => setSocketConnected(true));
