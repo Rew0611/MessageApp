@@ -1,6 +1,6 @@
-**Name:** Harshit Swarnkar  
-**University:** Indian Institute of Technology (BHU) Varanasi  
-**Department:** Electronics Engineering
+* **Name:** Harshit Swarnkar  
+* **University:** Indian Institute of Technology (BHU) Varanasi  
+* **Department:** Electronics Engineering
 <br/>
 
 <p align='center'>
