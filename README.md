@@ -1,3 +1,9 @@
+**Name:** Harshit Swarnkar  
+**University:** Indian Institute of Technology (BHU) Varanasi  
+**Department:** Electronics Engineering
+
+You can simply copy and paste this into your readme file.
+
 <p align='center'>
 <img src='./client/public/logo192.png'  width='25%'>
 </p>
