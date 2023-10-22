@@ -81,7 +81,6 @@ MessageApp is a chatting application. Its build using MERN stack and uses <a hre
    PORT=5000
    DB_URI=<mongodb_uri>
    JWT_SECRET=<your_jwt_secret>
-   JWT_EXPIRE=5d
    COOKIE_EXPIRE=5
    NODE_ENV=development
    CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloudname>
