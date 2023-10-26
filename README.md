@@ -85,14 +85,13 @@ MessageApp is a chatting application. Its build using MERN stack and uses <a hre
 
    ```env
    PORT=5000
-   DB_URI=<mongodb_uri>
+   USER_NAME= <mongodb_username>
+   USER_PASSWORD=<mongodb_password>
    JWT_SECRET=<your_jwt_secret>
-   COOKIE_EXPIRE=5
    NODE_ENV=development
    CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloudname>
    CLOUDINARY_API_KEY=<your_cloudinary_api_key>
    CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
-   FRONTEND_URL=http://localhost:3000
    ```
 
 5. Start the express server using :
